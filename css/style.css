@@ -226,9 +226,11 @@ main {
 
 .payment .proceed:hover {
     background: #766CF1;
+    color:white;
 }
 .payment .proceed:focus-visible {
     background: #766CF1;
+    color:white;
 }
 
 .payment a {
