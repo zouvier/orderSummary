@@ -1,0 +1,217 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1rem;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+    cursor:pointer;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+    isolation: isolate;
+}
+
+body {
+
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-color: #E0E8FF;
+    background-repeat: repeat-x;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+main {
+    padding: 1rem;
+}
+
+
+.card {
+    max-width: 28.125rem;
+    height: 43.563rem;
+    border-radius: 1.25rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.picture img {
+    max-height: 13.75rem;
+    border-radius: 1.25rem 1.25rem 0rem 0rem;
+}
+
+.picture {
+    max-height: 13.75rem;
+}
+
+.card-info {
+    text-align: center;
+
+}
+
+.card-info h1 {
+    font-size: 1.75rem;
+    line-height: 2.313rem;
+    margin-top: 2.813rem;
+}
+
+.card-info p {
+    color: #717FA6;
+    font-weight: 500;
+    line-height: 1.625rem;
+    margin: 0 3rem;
+    margin-top: 1.063rem;
+    margin-bottom: 1.25rem;
+
+}
+
+.card-price {
+    display: flex;
+    background-color: #F7F9FF;
+    max-width: 22.125rem;
+    height: 6.125rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.688rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.card-price .info {
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 1.25rem;
+}
+
+.card-price p {
+    margin: 0;
+
+}
+
+.card-price .outerInfo {
+    display: flex;
+}
+
+.card-price .price {
+    font-weight: 500;
+    line-height: 21px;
+    color: #717FA6;
+    margin-top: 0.375rem;
+}
+
+.card-price a {
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #382AE1;
+}
+.card-price a:hover {
+    color: #766CF1
+}
+
+.card-price a:focus-visible {
+    color: #766CF1
+}
+
+.card-price .annual {
+    color: #1F2E55;
+    font-weight: 900;
+    line-height: 21px;
+}
+
+.payment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 0.938rem;
+    line-height: 1.25rem;
+
+}
+
+.payment button {
+    background: #382AE1;
+    box-shadow: 0rem 1.25rem 1.25rem rgba(56, 42, 225, 0.190291);
+    border-radius: 0.688rem;
+    color: white;
+    max-width: 22.125rem;
+    height: 3.125rem;
+    width: 78.6%;
+    border: 0;
+}
+
+.payment button:hover {
+    background: #766CF1;
+}
+.payment button:focus-visible {
+    background: #766CF1;
+}
+
+.payment a {
+    margin: 2rem;
+    color: #717FA6;
+
+}
+.payment a:hover {
+    color: #1F2E55;
+}
+.payment a:focus-visible {
+    color: #1F2E55;
+}
+
+
