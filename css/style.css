@@ -64,10 +64,9 @@ body {
     display: grid;
     justify-content: center;
     align-items: center;
-    
-    /* margin: 1rem; */
-
 }
+
+
 main {
     padding: 5rem 1rem;
 }
@@ -178,23 +177,26 @@ main {
 }
 
 
-.card-price a {
+.card-price button {
     text-align: center;
     font-weight: 700;
     font-size: 0.875rem;
     line-height: 1.188;
     color: #382AE1;
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 .card-price svg {
     overflow: visible;
 }
 
-.card-price a:hover {
+.card-price button:hover {
     color: #766CF1
 }
 
-.card-price a:focus-visible {
+.card-price button:focus-visible {
     color: #766CF1
 }
 
@@ -210,21 +212,22 @@ main {
 
 }
 
-.payment button {
+.payment .proceed {
     background: #382AE1;
     box-shadow: 0rem 1.25rem 1.25rem rgba(56, 42, 225, 0.190291);
     border-radius: 0.688rem;
     color: white;
     padding-top: 0.938rem;
     padding-bottom: 0.938rem;
+    margin: 0;
     width: 78.6%;
     border: 0;
 }
 
-.payment button:hover {
+.payment .proceed:hover {
     background: #766CF1;
 }
-.payment button:focus-visible {
+.payment .proceed:focus-visible {
     background: #766CF1;
 }
 
